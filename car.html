@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/com.css"  />
+		<link rel="stylesheet" type="text/css" href="css/car.css"  />
+		<script src="date/libs/jquery-1.11.3.js"></script>
+		<script src="js/car.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div id="header-w"></div>
+		<!--主体-->
+		<div id='zhu-w'>
+			<div id='zhu'>
+				<div class="top">
+					<a href="index.html"><img src="img/log.png" /></a>
+					<p>| 购物车</p>
+					<ul>
+						<li>我的购物车<span class="span"><img src="img/dian.png"/></span></li>
+						<li>提交订单<span><img src="img/dian.png"/></span></li>
+						<li>等待付款<span><img src="img/dian.png"/></span></li>
+						<li>支付成功<span><img src="img/dian.png"/></span></li>
+					</ul>
+				</div>
+				<div class="center">
+					<p>全部商品<a href="index.html">返回首页</a></p>
+					<p class="clas">
+							<span style="margin-right: 180px;margin-left: 10px;">商品图片</span>
+							<span style="margin-right: 205px;">商品名</span>
+							<span style="margin-right: 170px;">单价（元）</span>
+							<span style="margin-right: 114px;">数量</span>
+							<span style="margin-right: 104px;">嘉丽价</span>
+							<span>操作</span>
+					</p>
+					<ul>
+						<p class="kong">购物车还是空的^_^</p>
+						<!--<li>
+							
+							<img src="img/c4.jpg" />
+							<div class="biao">
+								<a>迪菲怡南韩锦缎高档女裤5条超值组</a>
+								<p>货号：20119400</p>
+								<p>颜色/尺码 ：</p>
+								<p>迪菲怡提花无痕蚕丝内裤9+9超值组_ M码共同</p>
+							</div>
+							<span>￥168</span>
+							<form>
+								<input type="button" value="-"/>
+								<input type="text" class="txt"value="1"/>
+								<input type="button" value="+"/>
+							</form>
+							<span style="font-weight:600;">￥168</span>
+							<input type="button" id='del'value="删除" />
+						</li>-->
+					</ul>
+					<div id="end">
+						<input type="checkbox"checked="checked" />全选
+						<span class="qing">清空购物车</span>
+						<form>
+							<input type="button" value="去结算" />
+							<a href="list.html"><input type="button" value="继续购物" /></a>
+						</form>
+						<p id="suan">
+							<span>商品金额：<a></a></span>
+							<span>运费：<a></a></span>
+							<span>可返积分：<a></a></span>
+							<span>总计：<a></a></span>
+						</p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		<div id="footer-w"></div>
+	</body>
+</html>

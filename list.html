@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/com.css"  />
+		<link rel="stylesheet" type="text/css" href="css/list.css"  />
+		<script src="date/libs/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/jquery.pagination.js"></script>
+		<script src="js/list.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+	</head>
+	<body>
+		<!--------头部-------->
+		<div id='header-w'>
+			
+		</div>
+		<!--------LOG--------->
+		<div id='log-w'>
+			<div id='log'>
+				<div class="log-top">
+					<a href="index.html"><img src="img/log.png"style="float: left;margin-top: 8px;" /></a>
+					<form>
+						<input type="text" placeholder="输入商品名称或电视商品编号" class="txt"/>
+						<input type="button" value='   搜索' class="btn"/>
+					</form>
+					<a href="car.html">
+						<p>
+							<img src="img/shop.png" />
+							<span id="n">0</span>
+							&nbsp; &nbsp;我的购物车
+						</p>
+					</a>
+				</div>
+				<div class="log-bottom">
+					<p class="p1">全部商品分类</p>
+					<ul>
+						<li class="color"><a href="index.html">首页</a></li>
+						<li class="shu">|</li>
+						<li><a href="#">TV直播</a></li>
+						<li class="shu">|</li>
+						<li><a href="#">嘉丽全球购</a></li>
+						<li class="shu">|</li>
+						<li><a href="#">水果生鲜</a></li>
+						<li class="shu">|</li>
+					</ul>
+					<p class="p2">订购热线<span>400-630-0077</span></p>
+				</div>
+			</div>
+		</div>
+		<!--------主体-------->
+		<div id='zhu-w'>
+			<div id='zhu'>
+				<p>首页 >服装、箱包</p>
+				<div id="fu">
+					<div class="left">
+						<ul class="u1">
+							<li><a>护肤 美妆</a>
+								<ul>
+									<li><p>面部护理 ></p>
+										<a>洁面乳</a><a>爽肤水</a>
+										<a> 精华露</a><a>乳液/面霜</a><a>眼部护理</a>
+										<a>护肤套组</a><a>男士专区</a><a>面膜 </a>
+									</li>
+									<li>
+										<p>全身护理 ></p><a>洗发护发 </a><a>染发造型</a>
+										<a>沐浴</a><a>洗护套餐</a><a> 脱毛</a><a> 身体乳</a>
+									</li>
+									<li>
+										<p>女性护理 ></p><a>洗液 </a>
+									</li>
+									<li>
+										<p>美容工具 ></p><a>剃须刀 </a><a>脱毛器</a>
+										<a>掏耳器</a><a>湿巾</a>
+									</li>
+									<li>
+										<p>化妆用品 ></p><a>防晒隔离</a><a> BB霜</a>
+										<a> 香水</a><a>彩妆套餐</a><a>美容美发</a>
+										<a> 卸妆用品</a><a>睫毛膏</a><a>粉底散粉</a><a>皂</a>
+									</li>
+								</ul>
+							</li>
+							<li><a>服装 箱包</a>
+								<ul>
+									<li>
+										<p>内衣 ></p><a>文胸</a><a> 塑身</a>
+										<a>睡衣</a><a>家居服</a><a> 袜子</a>
+										<a>套装</a><a>内裤</a>
+									</li>
+									<li>
+										<p>女装 ></p><a>衬衫</a><a>T恤</a>
+										<a>针织 </a><a>外套</a><a>羽绒服</a>
+										<a>裙子</a><a>女裤</a>
+									</li>
+									<li>
+										<p>男装 ></p><a>衬衫</a><a>T恤</a><a>针织</a>
+										<a>外套</a><a>羽绒服</a><a>男裤</a>
+									</li>
+									<li>
+										<p>配饰 ></p><a>眼镜</a><a>围巾</a><a>衣着配饰</a><a> 皮带 </a>
+									</li>
+									<li>
+										<p>男鞋 ></p><a>皮鞋 </a><a> 休闲鞋</a><a>凉鞋/沙滩鞋</a>
+									</li>
+									<li>
+										<p>女鞋 ></p><a>单鞋</a><a>休闲鞋</a><a>靴子</a>
+									</li>
+									<li>
+										<p>潮流包 ></p><a>手拿包</a><a>单肩包</a>
+										<a> 双肩包</a><a>手提包</a><a>斜挎包</a><a>套组</a>
+									</li>
+									<li>
+										<p>功能箱包 ></p><a>拉杆箱</a><a>钱包</a>
+									</li>
+									<li><p>流行手表 ></p></li>
+									<li><p>运动服 ></p></li>
+								</ul>
+							</li>
+							<li><a>饰品 礼品</a>
+								<ul>
+									<li><p>项链吊坠 ></p></li>
+									<li><p>手链手镯 ></p></li>
+									<li><p>戒指 ></p></li>
+									<li><p>耳环 ></p></li>
+									<li><p>套组 ></p></li>
+									<li><p>工艺品 ></p></li>
+									<li><p>发夹 ></p></li>
+									<li><p>胸针 ></p></li>
+									<li><p>钥匙扣 ></p></li>
+								</ul>
+							</li>
+							<li><a>家居 日用</a>
+								<ul>
+									<li><p>家纺 ></p>
+										<a>床品件套 </a><a>被子/枕芯</a><a>凉席</a><a>电热毯  </a>
+									</li>
+									<li><p>生活日用 ></p>
+										<a>晒衣架</a><a>收纳用品</a><a>清洁用品</a>
+										<a>安全套</a><a>雨伞</a><a>杯子</a>
+									</li>
+									<li><p>厨房日用 ></p>
+										<a>锅具</a><a>餐具</a><a>刀具</a>
+									</li>
+									<li><p>家居生活 ></p>
+										<a>礼品</a>
+										<a>麻将机</a>
+										<a>空气床</a>
+										<a>母婴用品</a>
+									</li>
+								</ul>
+							</li>
+							<li><a>家电 数码</a>
+								<ul>
+									<li><p>电脑整机 ></p>
+										<a>台式 </a><a>笔记本</a><a>平板电脑</a>
+									</li>
+									<li><p>手机 ></p></li>
+									<li><p>数码摄像 ></p>
+										<a>数码相机</a><a>单反相机</a><a>数码摄像机</a><a>导航仪  </a>
+									</li>
+									<li><p>家电 ></p>
+										<a>空调</a><a>平板电视</a><a>冰箱</a>
+										<a>洗衣机</a><a>烟机/灶具</a>
+									</li>
+									<li><p>家居电器 ></p>
+										<a>取暖器</a><a>电风扇 </a><a>吸尘器</a><a>挂烫机</a>
+										<a>干衣机</a><a> 吹风机</a><a>饮水机</a><a> 空调扇</a>
+										
+									</li>
+									<li><p>厨房电器 ></p>
+										<a>料理/榨汁</a><a> 豆浆机</a><a>电饭煲</a>
+										<a> 电压力锅</a><a>微波炉</a><a>电磁炉</a>
+										<a>电水壶</a><a>电热锅</a><a>烤箱</a>
+									</li>
+									<li><p>五金电器 ></p>
+										<a>水槽</a><a>水龙头</a><a>灯具 </a>
+									</li>
+								</ul>
+							</li>
+							<li style="border: none;"><a>酒水 保健</a>
+								<ul>
+									<li><p>健身器材 ></p>
+										<a>跑步机</a><a>按摩器材</a><a>健身机</a><a>球类器械 </a>
+									</li>
+									<li><p>婴童用品 ></p>
+										<a>奶粉</a><a>寝具服饰</a><a> 喂哺用品</a>
+										<a>玩具乐器</a><a>妈妈专区</a><a>营养辅食</a>
+										<a>尿裤湿巾</a>
+									</li>
+									<li><p>营养保健 ></p>
+										<a>保健品</a><a>干果/零食</a><a>酒水</a>
+									</li>
+									<li><p>保险 ></p></li>
+									<li><p>旅游 ></p>
+										<a>国内旅游</a><a>国外旅游</a>
+									</li>
+									<li><p>票务 ></p></li>
+									<li><p>减肥产品 ></p></li>
+									<li><p>汽车 ></p></li>
+								</ul>
+							</li>
+						</ul>
+						<p class="te">特色推荐</p>
+						<ul class="u2">
+							
+						</ul>
+					</div>
+					<div class="right">
+						<p>分类：
+							<a class="a"> 全部 </a><a>内衣</a><a>女装</a><a>男装</a><a>配饰</a><a>男鞋 </a>
+							<a>女鞋</a><a>潮流包</a><a>功能箱包</a><a>流行手表</a><a>运动服 </a>
+						</p>
+						<p>品牌：
+							<a class="a"> 全部 </a><a>韩伊</a> <a>Gucci</a><a>杉杉</a><a>浪莎</a>
+							<a>迪菲怡 </a><a>益鑫泰</a><a>花花公子</a><a>俞兆林</a><a>桑箬斯</a>
+							<a>莎斐妮</a><a>S.T</a><a>傲泊芮 </a><a>Chenke</a><a>艾诺兰蒂卡</a>
+							<a>诗尔莉</a><a>YKE</a><a>LAULATER</a><a>莫瑞娜 </a>
+						</p>
+						<p class="p">
+							<span style="float: left;margin-left: 14px;">排序 <a style="margin-left:16px;" >按销量↓</acronym><a> 按上架时间↓</a><a>按价格 ↓</a></span>
+							<span style="float: right;margin-right: 20px;">配送类型：<a>嘉丽购配送</a><a>商家配送</a></span>
+						</p>
+						<div id="list">
+							
+						
+						</div>
+						<div id="Pagination" class="pagination"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--------尾部-------->
+		<div id='footer-w'>
+			
+		</div>
+	</body>
+</html>

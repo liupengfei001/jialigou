@@ -1,0 +1,52 @@
+#zhu-w{}
+#zhu{width: 1190px;min-height: 1290px;height: auto !important;height:1290px;margin: 0 auto;overflow: hidden;}
+#zhu p{height: 30px;line-height: 30px;font-size: 12px;margin-left: 25px;}
+#zhu #fu{width: 1190px;text-align: left;}
+#zhu .left{width: 190px;display: inline-block; float: left;text-align: left;}
+#zhu .left .u1{width: 190px;border: 1px solid #e8e8e7;}
+#zhu .left .u1 li{line-height: 30px;font-size:14px;background: #e8e8e7;
+	border-bottom:1px solid #FFFFFF ;}
+#zhu .left .u1 li a{display: block;margin-left:26px;}
+#zhu .left .u1 li ul{display: none;width: 190px;background: #FFFFFF;}
+#zhu .left .u1 li ul li{background: #FFFFFF;margin-left: 25px;}
+#zhu .left .u1 li ul li a{margin-right: 10px;margin-left:0px;display: inline-block;}
+#zhu .left .u1 li ul li p{width:180px;font-weight:600;margin-left: 0;}
+#zhu .left .u2{border:1px solid #E8E8E7 ;width: 190px;margin-bottom: 20px;}
+#zhu .left  .te{margin-top: 20px;margin-left: 24px;color:#e91456;font-size: 14px;}
+#zhu .left .u2 li{ width: 186px; height: 248px;padding:2px;
+	position:relative;}
+#zhu .left .u2 li img{width: 186px;height: 186px;position: absolute;}		
+#zhu .left .u2 li p{height: 28px;font-size: 14px;color: #e91456;line-height: 28px;
+	position: absolute;bottom:4px ;margin-left: 0;}
+#zhu .left .u2 li a{height: 28px;font-size: 12px;line-height: 12px;display: block;margin-top: 190px;}
+#zhu .right{width:990px;border: 1px solid #E8E8E7;margin-left: 6px;
+	float:right;display: inline-block;text-align: left;margin-bottom: 20px;}
+#zhu .right p{height: 40px;line-height: 40px;margin-left: 14px;}
+#zhu .right p a{margin-left: 6px;}
+#zhu .right p .a{background: #e91456;color: #fff;}
+#zhu .right .p{margin-left: 0;border-top:1px solid #E8E8E7;border-bottom:1px solid #E8E8E7;}
+#zhu .right .p span{font-size: 12px;line-height: 40px;}
+#zhu .right .p span a{display:inline-block;height:30px;margin-right: 20px;
+	line-height:30px;margin-top:5px;background: #eeeeee;padding: 0 2px;}
+#zhu .right ul {padding-top:10px;overflow: hidden;}
+#zhu .right ul li{float: left;width: 228px;height: 335px;margin-left: 14px;
+	position:relative;border:1px solid #fff;margin-bottom:10px;}
+#zhu .right ul li:hover{border-color:#E8E8E7;}
+#zhu .right ul li img{width: 228px;height: 228px;}
+#zhu .right ul li a{font-size: 12px;}
+#zhu .right ul li p{height:16px;line-height:16px;position: absolute;top:280px;color: #e91456;
+	font-size: 14px;font-weight: 600;margin-left: 0;}
+#zhu .right ul li span{position: absolute;top:280px;right:12px;width: 100px;height: 16px;
+font-size: 12px;line-height: 16px;}
+#zhu .right ul li .btn{width: 100px;height: 30px;position: absolute;top:300px;left:26px;}
+#zhu .right ul li .btn1{width: 56px;height: 30px;position: absolute;top: 300px;right: 26px;}
+#zhu .right ul li input{background: #f3f3f3;border:1px solid #d0d0d0;}
+#zhu .right ul li input:hover{background: #E43B8C;color: #FFFFFF;}
+#zhu .right #Pagination{height: 30px;text-align: center;margin: 30px 0 30px 0}
+#zhu .right .pagination a { text-decoration: none;border: 1px solid #AAE;color: #15B;}
+#zhu .right .pagination a, .pagination span {display: inline-block;padding: 0.1em 0.4em;
+	margin-right: 5px;margin-bottom: 5px;}
+#zhu .right .pagination .current {background: #E43B8C;color: #fff;border: 1px solid #AAE;}
+#zhu .right .pagination .current.prev, .pagination .current.next{color:#999;
+	border-color:#999;background:#fff;
+}

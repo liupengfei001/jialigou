@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>嘉丽购</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/com.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<script src="date/libs/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/jquery.validate.js"></script>
+		<script type="text/javascript" src="js/jquery.validate.messages_zh.js"></script>
+		<script src="js/login.js"></script>
+	</head>
+	<body>
+		<!--网页主体-->
+		<div id='zhu-w'>
+			<div id="top-w">
+				<div id="top">
+					<a href="index.html"><img src="img/log.png" /></a>
+					<p>|用户注册</p>
+					<span>已有帐号<a href="deng.html">直接登录</a></span>
+				</div>
+			</div>
+			<div id="zhu">
+				<div id='cen'>
+					<form>
+						*用户名：&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required=true name="userID" minlength=6 placeholder="请输入用户名" /></br>
+						*设置密码：<input type="password" required=true name='password' id='pass' rangelength='5,10' placeholder="请设置密码" /></br>
+						*确认密码：<input type="password" required=true name='password' equalTo='#pass' placeholder="请确认密码" /></br>
+						<input type="radio" class="radio"/><a>我已阅读并同意《嘉丽购物网服务条款》</a>
+									<input type="button" value="注册" id='btn' />
+									<p>您还可以选择<a href="javascript:;">邮箱登录</a></p>
+					</form>
+					<img src="img/login-bg1.jpg" />
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		<div id="footer-w">
+			
+		</div>
+	</body>
+</html>

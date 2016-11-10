@@ -1,0 +1,26 @@
+/*主体部分*/
+#zhu-w{background: #f7f7f7;}
+#zhu{width: 1200px;height:568px;margin: 0 auto;overflow: hidden;}
+#zhu .top{height: 170px;line-height: 170px;overflow: hidden;}
+#zhu .top img{display:block;width:196px;height:74px;float: left;margin-top: 43px;float: left;}
+#zhu .top p{display: inline-block;float: left;font-size: 16px;}
+#zhu .top a{float: right;color: #d1c9d1;}
+#zhu .top a span{color: #e91456 ;}
+#zhu .bottom{height: 377px;position: relative;}
+#zhu .bottom img{height: 377px;width: 852px;float: left;}
+#zhu .bottom .de{float: left;width: 348px; height: 377px;background: #fff;}
+#zhu .bottom .de p{width:274px;margin-left:34px;display: inline-block;float: left;
+	height: 38px;line-height: 38px;font-size: 14px;}
+#zhu .bottom .de p a{float: right;color: #e91456;font-size: 12px;line-height: 38px;}
+#zhu .bottom .de input{width: 274px;height: 32px;border: 1px solid #a9a9a9;margin-top:17px ;margin-left: 34px;}
+#zhu .bottom .de #inp{width: 129px;}
+#zhu .bottom .de form img{width: 95px;height: 32px;position: absolute;top: 140px;right: 88px;}
+#zhu .bottom .de .radio{width: 10px; height: 10px;margin-top: 29px;}
+#zhu .bottom .de a{margin-left: 14px;}
+#zhu .bottom .de #login{background: #e21357;color: #fff;margin-top: 10px;margin-bottom: 18px;}
+#zhu .bottom .de .p2{width: 348px;height:36px;line-height:36px;border-bottom: 1px solid #e8e8e7;
+	text-align:center;margin-left: 0;}
+#zhu .bottom .de .qq {width: 348px;height: 40px;line-height: 40px;}
+#zhu .bottom .de .qq  .img1{height: 16px;width: 16px;margin-top: 12px;margin-left: 100px;float: left;}
+#zhu .bottom .de .qq a{float: left; font-size: 12px;margin-left: 2px;}
+#zhu .bottom .de .qq  .img2{height: 15px;width: 57px;margin-top: 14px;margin-left:8px;float: left;}
